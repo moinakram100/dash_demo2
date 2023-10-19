@@ -1,0 +1,162 @@
+<mvc:View
+    controllerName="refinerydemo.controller.Dash"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+       <l:HorizontalLayout id="layout1" class="layout">
+          <Link text="SAT GAS" class="btn1" id="myClickableLink" press="onLinkPress" />
+          <Link text="SAT LPG" class="btn2 link_margin" id="myClickableLink1" press="onLinkPress"  />
+          <Link text="NHT/NAPHTHA" class="btn3" id="myClickableLink2" press="onLinkPress"  />
+          <Link text="PENEX" class="btn4" id="myClickableLink3" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+        <l:HorizontalLayout id="layout2" class="layout2">
+              <Link text="PLATFORMING" class="btn4" id="myClickableLink5" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+        <l:HorizontalLayout id="layout3" class="layout3">
+              <Link text="CDU" class="btn6" id="myClickableLink6" press="onLinkPress"  />
+              <Link text="KEROSENE" class="btn5" id="myClickableLink7" press="onLinkPress"  />
+        </l:HorizontalLayout>
+            
+           <l:HorizontalLayout id="layout4" class="layout4">
+              <Link text="MHC UNICR" class="btn7" id="myClickableLink8" press="onLinkPress"  />
+              <Link text="H2 PLANT" class="btn8" id="myClickableLink9" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+           <l:HorizontalLayout id="layout5" class="layout5">
+              <Link text="RFCC RX" class="btn9" id="myClickableLink10" press="onLinkPress"  />
+              <Link text="UNSAT GAS" class="btn9 btn9slide" id="myClickableLink11" press="onLinkPress"  />
+              <Link text="UNSAT LPG" class="btn9" id="myClickableLink12" press="onLinkPress"  />
+              <Link text="PRU" class="btn9" id="myClickableLink13" press="onLinkPress"  />
+              <Link text="POLYPROP" class="btn9" id="myClickableLink14" press="onLinkPress"  />
+        </l:HorizontalLayout>
+         
+         <l:HorizontalLayout id="layout6" class="layout6">
+              <Link text="C4 SHP" class="btn10" id="myClickableLink15" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+         <l:HorizontalLayout id="layout7" class="layout7">
+              <Link text="RFCE HDS" class="btn11" id="myClickableLink16" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+         <l:HorizontalLayout id="layout8" class="layout8">
+              <Link text="SAR PLANT" class="btn12" id="myClickableLink17" press="onLinkPress"  />
+              <Link text="ALKYLATION" class="btn12" id="myClickableLink18" press="onLinkPress"  />
+              <Link text="BUTAMER" class="btn12" id="myClickableLink19" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+         <l:HorizontalLayout id="layout9" class="layout9">
+              <Link text="SAT ARU" class="btn13 btn_upper" id="myClickableLink20" press="onLinkPress"  />
+              <Link text="UNSAT ARU" class="btn13" id="myClickableLink21" press="onLinkPress"  />
+              <Link text="NON PHENOLIC" class="btn13 btn_upper" id="myClickableLink22" press="onLinkPress"  />
+              <Link text="PHENOLIC SWS" class="btn13" id="myClickableLink23" press="onLinkPress"  />
+        </l:HorizontalLayout>
+
+        <l:VerticalLayout id="layout10" class="layout10">
+              <Link text="SRU" class="btn14 btn14_side" id="myClickableLink24" press="onLinkPress"  />
+              <Link text="CAUSTIC" class="btn14" id="myClickableLink25" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout11" class="layout11">
+              <Link text="CRUDE" class="btn15" id="myClickableLink26" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout12" class="layout12">
+              <Link text="CRUDE" class="btn16 btn15_side" id="myClickableLink27" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout13" class="layout13">
+              <Link text="PROPANE" class="btn17" id="myClickableLink28" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout18" class="layout18">
+              <Link text="" class="btn21" id="myClickableLink32" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout19" class="layout19">
+              <Link text="" class="btn22" id="myClickableLink33" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout20" class="layout20">
+              <Link text="" class="btn22" id="myClickableLink34" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout21" class="layout21">
+              <Link text="" class="btn22" id="myClickableLink35" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+       
+        <l:VerticalLayout id="layout22" class="layout22">
+              <Link text="" class="btn22" id="myClickableLink36" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+        <l:VerticalLayout id="layout23" class="layout23">
+              <Link text="" class="btn22" id="myClickableLink37" press="onLinkPress"  />
+        </l:VerticalLayout>
+        <l:VerticalLayout id="layout24" class="layout24">
+              <Link text="" class="btn22" id="myClickableLink38" press="onLinkPress"  />
+        </l:VerticalLayout>
+         <l:VerticalLayout id="layout25" class="layout25">
+              <Link text="" class="btn22" id="myClickableLink39" press="onLinkPress"  />
+        </l:VerticalLayout>
+         <l:VerticalLayout id="layout26" class="layout26">
+              <Link text="" class="btn22" id="myClickableLink40" press="onLinkPress"  />
+        </l:VerticalLayout>
+         <l:VerticalLayout id="layout27" class="layout27">
+              <Link text="" class="btn22" id="myClickableLink41" press="onLinkPress"  />
+        </l:VerticalLayout>
+
+      <l:VerticalLayout id="layout14" class="layout14">
+        <l:VerticalLayout id="layout15" class="layout15">
+              <Link text="GASOLINE" class="btn18" id="myClickableLink29" press="onLinkPress"  />
+        </l:VerticalLayout>
+        <l:VerticalLayout id="layout16" class="layout16">
+              <Link text="JET FUEL" class="btn19" id="myClickableLink30" press="onLinkPress"  />
+        </l:VerticalLayout>
+        <l:VerticalLayout id="layout17" class="layout16 btn20_slide">
+              <Link text="DIESEL" class="btn20" id="myClickableLink31" press="onLinkPress"  />
+        </l:VerticalLayout>
+    </l:VerticalLayout>
+
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+           <!-- <Link text="clickable link" class="btn1" id="myClickableLink1" press="onLinkPress"/> -->
+        <!-- <l:VerticalLayout id="_IDGenVerticalLayout1">
+            <Text
+                id="_IDGenText1"
+                text="This is on the first line"
+            />
+            <Text
+                id="_IDGenText2"
+                text="This is on the second line"
+            />
+            <Text
+                id="_IDGenText3"
+                text="This is on the third line"
+            />
+        </l:VerticalLayout> -->
+        <!-- <l:HorizontalLayout id="_IDGenVerticalLayout2">
+           <Link text="clickable link" class="btn1" id="myClickableLink1" press="onLinkPress"/>
+           <Link text="clickable link" class="btn2" id="myClickableLink2" press="onLinkPress"/>
+           <Link text="clickable link" class="btn3" id="myClickableLink3" press="onLinkPress"
+        />
+        </l:HorizontalLayout> -->
+    </Page>
+</mvc:View>
